@@ -1,18 +1,8 @@
 [
-  {
-    "id": 1,
-    "name": "HTML"
-  },
-  {
-    "id": 2,
-    "name": "CSS"
-  },
-  {
-    "id": 3,
-    "name": "JavaScript"
-  },
-  {
-    "id": 4,
-    "name": "React"
-  }
+  { "id": 1, "name": "JAVASCRIPT", "icon": "JS" },
+  { "id": 2, "name": "REACT", "icon": "⚛" },
+  { "id": 3, "name": "REDUX", "icon": "⟳" },
+  { "id": 4, "name": "NODE", "icon": "N" },
+  { "id": 5, "name": "VS CODE", "icon": "</>" },
+  { "id": 6, "name": "FIGMA", "icon": "F" }
 ]

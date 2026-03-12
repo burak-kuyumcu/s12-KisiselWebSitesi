@@ -1,26 +1,26 @@
 import Hero from '../sections/Hero';
 import Skills from '../sections/Skills';
-import Projects from '../sections/Projects';
 import Profile from '../sections/Profile';
+import Projects from '../sections/Projects';
 import Footer from '../sections/Footer';
 import ModeSwitch from '../ui/ModeSwitch';
 import PageDecorations from '../ui/PageDecorations';
+
 import '../../styles/HomePage.css';
 
 export default function HomePage({ darkMode, toggleTheme }) {
   return (
-    <div className={darkMode ? 'app dark' : 'app light'}>
-      <ModeSwitch darkMode={darkMode} toggleTheme={toggleTheme} />
+    <div className={darkMode ? 'home-page dark' : 'home-page light'}>
       <PageDecorations />
 
-      <main>
+      <div className="page-content">
+        <ModeSwitch darkMode={darkMode} toggleTheme={toggleTheme} />
         <Hero />
         <Skills />
-        <Projects />
         <Profile />
-      </main>
-
-      <Footer />
+        <Projects />
+        <Footer />
+      </div>
     </div>
   );
 }

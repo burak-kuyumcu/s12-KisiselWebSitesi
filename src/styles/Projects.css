@@ -1,25 +1,66 @@
 .projects {
-  padding: 80px 20px;
-  background-color: #0f172a;
-  color: white;
-  text-align: center;
+  padding: 80px 100px;
 }
 
-.projects-title {
-  font-size: 36px;
-  margin-bottom: 32px;
-}
-
-.project-list {
+.projects-grid {
   display: flex;
-  gap: 20px;
   justify-content: center;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
 .project-card {
-  width: 250px;
-  padding: 24px;
-  background-color: #1e293b;
+  width: 360px;
+  background: #dbeafe;
   border-radius: 16px;
+  padding: 24px;
+}
+
+.project-card:nth-child(2) {
+  background: #d1fae5;
+}
+
+.project-card h3 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.project-card p {
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.project-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tag {
+  background: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 600;
+}
+
+.project-image-placeholder {
+  height: 180px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

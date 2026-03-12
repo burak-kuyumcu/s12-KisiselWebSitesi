@@ -1,7 +1,18 @@
-{
-  "name": "Aydın Burak Kuyumcu",
-  "title": "Frontend Developer",
-  "about": "Modern, kullanıcı dostu ve responsive arayüzler geliştirmeyi seviyorum.",
-  "email": "burak@example.com",
-  "location": "Türkiye"
-}
+[
+  {
+    "id": 1,
+    "title": "Random Jokes",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "tags": ["react", "vercel", "axios", "router"],
+    "github": "#",
+    "demo": "#"
+  },
+  {
+    "id": 2,
+    "title": "Are you bored?",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "tags": ["react", "redux", "axios", "vercel"],
+    "github": "#",
+    "demo": "#"
+  }
+]
