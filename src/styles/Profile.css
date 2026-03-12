@@ -1,0 +1,18 @@
+.profile {
+  padding: 80px 20px;
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+}
+
+.profile-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.profile-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}

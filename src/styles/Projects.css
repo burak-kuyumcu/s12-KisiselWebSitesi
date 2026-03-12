@@ -1,0 +1,25 @@
+.projects {
+  padding: 80px 20px;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.project-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 250px;
+  padding: 24px;
+  background-color: #1e293b;
+  border-radius: 16px;
+}

@@ -1,0 +1,25 @@
+.skills {
+  padding: 80px 20px;
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: #334155;
+  padding: 16px 24px;
+  border-radius: 12px;
+  min-width: 120px;
+}
