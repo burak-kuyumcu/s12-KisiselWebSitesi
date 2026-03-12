@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "title": "Personal Website",
+    "description": "Kendi kişisel web sitemi React ile geliştirdim.",
+    "image": "/images/project1.png",
+    "github": "https://github.com/kullanici/project1",
+    "demo": "https://project1-demo.com"
+  }
+]
