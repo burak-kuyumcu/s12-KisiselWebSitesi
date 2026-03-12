@@ -3,6 +3,7 @@
   z-index: 0;
   pointer-events: none;
 }
+
 .top-circle {
   width: 70px;
   height: 70px;
@@ -17,7 +18,7 @@
   height: 60px;
   border: 10px solid #d6d6d6;
   border-radius: 50%;
-  top: 560px;
+  top: 620px;
   right: 180px;
 }
 
@@ -27,7 +28,7 @@
   border-radius: 18px 0 0 18px;
   background: #ff2f87;
   right: 0;
-  top: 340px;
+  top: 360px;
 }
 
 .left-pill {
@@ -36,7 +37,7 @@
   border-radius: 0 18px 18px 0;
   background: #444;
   left: 0;
-  top: 980px;
+  top: 1180px;
 }
 
 .right-ring {
@@ -46,4 +47,16 @@
   border-radius: 50%;
   right: -20px;
   bottom: 180px;
+}
+
+.dark .top-circle {
+  background: #3c3c3c;
+}
+
+.dark .middle-ring {
+  border-color: #4a4a4a;
+}
+
+.dark .left-pill {
+  background: #666;
 }

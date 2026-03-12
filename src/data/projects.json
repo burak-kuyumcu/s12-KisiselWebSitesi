@@ -3,8 +3,18 @@
     "id": 1,
     "title": "Personal Website",
     "description": "Kendi kişisel web sitemi React ile geliştirdim.",
-    "image": "/images/project1.png",
-    "github": "https://github.com/kullanici/project1",
-    "demo": "https://project1-demo.com"
+    "tags": ["react", "css", "json", "responsive"],
+    "github": "https://github.com",
+    "demo": "https://example.com",
+    "image": "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?w=600"
+  },
+  {
+    "id": 2,
+    "title": "Portfolio UI",
+    "description": "Modern arayüz ve dark mode destekli portfolyo çalışması.",
+    "tags": ["react", "ui", "design", "vercel"],
+    "github": "https://github.com",
+    "demo": "https://example.com",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600"
   }
 ]

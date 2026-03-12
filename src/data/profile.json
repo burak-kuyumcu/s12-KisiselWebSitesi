@@ -1,18 +1,8 @@
-[
-  {
-    "id": 1,
-    "title": "Random Jokes",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tags": ["react", "vercel", "axios", "router"],
-    "github": "#",
-    "demo": "#"
-  },
-  {
-    "id": 2,
-    "title": "Are you bored?",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tags": ["react", "redux", "axios", "vercel"],
-    "github": "#",
-    "demo": "#"
-  }
-]
+{
+  "birthDate": "24.03.1996",
+  "city": "Ankara",
+  "education": "Hacettepe Üniv.",
+  "role": "Frontend, UI",
+  "about1": "Modern, kullanıcı dostu ve ölçeklenebilir arayüzler geliştirmeyi seviyorum.",
+  "about2": "React, tasarım sistemleri ve temiz component yapıları ile çalışmayı seviyorum."
+}

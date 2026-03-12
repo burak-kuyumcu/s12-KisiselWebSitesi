@@ -5,5 +5,8 @@
   "description": "I can craft solid and scalable frontend products. Let’s meet!",
   "status": "Currently freelancing for UX, UI, & Web Design Project.",
   "email": "burak@example.com",
-  "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500"
+  "linkedin": "https://linkedin.com",
+  "github": "https://github.com",
+  "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600",
+  "alt": "Developer portrait"
 }
