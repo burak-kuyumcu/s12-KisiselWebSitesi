@@ -7,6 +7,7 @@
   min-height: 68vh;
   display: flex;
   align-items: center;
+  background: transparent;
 }
 
 .hero-grid {

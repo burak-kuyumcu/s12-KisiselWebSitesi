@@ -1,3 +1,7 @@
+
+.skills {
+  background: #f7f7f7;
+}
 .skills.section {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -85,6 +89,10 @@
   width: 52px;
   height: 52px;
 }
+.dark .skills {
+  background: #252525;
+}
+
 
 .dark .skill-card p {
   color: #d1d5db;

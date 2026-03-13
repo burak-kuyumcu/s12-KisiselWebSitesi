@@ -1,3 +1,7 @@
+.projects {
+  background: #f7f7f7;
+}
+
 .projects.section {
   padding-top: 36px;
   padding-bottom: 20px;
@@ -94,6 +98,10 @@
   object-fit: contain;
   display: block;
 }
+.dark .projects {
+  background: #252525;
+}
+
 
 .dark .project-card:nth-child(1) {
   background: #31465f;
