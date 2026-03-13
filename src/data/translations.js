@@ -2,7 +2,7 @@
   tr: {
     switchLanguage: "İNGİLİZCE'YE GEÇ",
     heroGreeting: 'Merhaba! 👋',
-    heroName: 'Ben Burak.',
+    heroName: 'Ben  Aydın Burak.',
     heroTitle: 'Ben bir full-stack geliştiriciyim.',
     heroDescription:
       'Sağlam ve ölçeklenebilir frontend ürünleri geliştirebilirim. Tanışalım!',
@@ -25,7 +25,7 @@
   en: {
     switchLanguage: "TÜRKÇE'YE GEÇ",
     heroGreeting: 'Hi! 👋',
-    heroName: "I’m Burak.",
+    heroName: "I’m Aydın Burak.",
     heroTitle: 'I’m a full-stack developer.',
     heroDescription:
       'I can craft solid and scalable frontend products. Let’s meet!',
