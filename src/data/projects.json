@@ -1,24 +1,24 @@
 [
   {
     "id": 1,
-    "titleTr": "Kişisel Web Sitesi",
-    "titleEn": "Personal Website",
-    "descriptionTr": "Kendi kişisel web sitemi React ile geliştirdim.",
-    "descriptionEn": "I developed my personal website with React.",
-    "tags": ["react", "css", "json", "responsive"],
-    "github": "https://github.com",
-    "demo": "https://example.com",
-    "image": "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?w=600"
+    "titleTr": "Kullanıcı ve Post Yönetim Paneli",
+    "titleEn": "User and Post Management Panel",
+    "descriptionTr": "React ve axios kullanarak geliştirdiğim kullanıcı ve post yönetim paneli. Backend bağlantısı, kullanıcı listeleme, post işlemleri ve temel CRUD akışlarını içerir.",
+    "descriptionEn": "A user and post management panel built with React and axios. Includes backend connection status, user listing, post operations and basic CRUD flows.",
+    "tags": ["react", "axios", "crud", "api"],
+    "github": "https://github.com/burak-kuyumcu/React-Nodejs-Project",
+    "demo": "https://react-nodejs-project-nine.vercel.app/",
+    "image": "/images/project-users-posts.png"
   },
   {
     "id": 2,
-    "titleTr": "Portfolyo Arayüzü",
-    "titleEn": "Portfolio UI",
-    "descriptionTr": "Modern arayüz ve dark mode destekli portfolyo çalışması.",
-    "descriptionEn": "A portfolio project with a modern interface and dark mode support.",
-    "tags": ["react", "ui", "design", "vercel"],
-    "github": "https://github.com",
-    "demo": "https://example.com",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600"
+    "titleTr": "Teknolojik Yemekler",
+    "titleEn": "Tech Food Landing Page",
+    "descriptionTr": "Responsive yapıda geliştirdiğim yemek temalı landing page projesi. Modern arayüz, kategori alanları ve kampanya kartları içerir.",
+    "descriptionEn": "A responsive food-themed landing page project with a modern interface, category sections and campaign cards.",
+    "tags": ["react", "css", "responsive", "ui"],
+    "github": "https://github.com/burak-kuyumcu/fsweb-s8-challenge-pizza",
+    "demo": "https://fsweb-s8-challenge-pizza-vert.vercel.app/",
+    "image": "/images/project-tech-food.png"
   }
 ]
