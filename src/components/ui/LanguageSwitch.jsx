@@ -5,7 +5,7 @@ export default function LanguageSwitch() {
   const { toggleLanguage, t } = useLanguage();
 
   return (
-    <button className="language-btn" onClick={toggleLanguage}>
+    <button className="language-link" onClick={toggleLanguage}>
       {t.switchLanguage}
     </button>
   );

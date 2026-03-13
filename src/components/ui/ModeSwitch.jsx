@@ -2,10 +2,13 @@ import '../../styles/ModeSwitch.css';
 
 export default function ModeSwitch({ darkMode, toggleTheme }) {
   return (
-    <div className="mode-switch">
-      <button onClick={toggleTheme} className="mode-btn">
-        {darkMode ? 'Light Mode' : 'Dark Mode'}
-      </button>
-    </div>
+    <button className="theme-toggle" onClick={toggleTheme}>
+      <span className={`theme-switch ${darkMode ? 'active' : ''}`}>
+        <span className="theme-switch-knob"></span>
+      </span>
+      <span className="theme-toggle-label">
+        {darkMode ? 'LIGHT MODE' : 'DARK MODE'}
+      </span>
+    </button>
   );
 }

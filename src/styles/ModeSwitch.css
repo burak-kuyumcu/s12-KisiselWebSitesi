@@ -1,18 +1,48 @@
-.mode-switch {
-  top: 24px;
-  right: 24px;
-  z-index: 99;
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
-.mode-btn {
-  background: #38bdf8;
-  color: #111827;
-  border: none;
+.theme-toggle-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #6b6b6b;
+}
+
+.theme-switch {
+  width: 34px;
+  height: 18px;
   border-radius: 999px;
-  padding: 10px 16px;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 13px;
+  background: #ff2f87;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 2px;
+  transition: 0.2s ease;
+}
+
+.theme-switch-knob {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffe44d;
+  position: absolute;
+  left: 2px;
+  transition: 0.2s ease;
+}
+
+.theme-switch.active .theme-switch-knob {
+  left: 18px;
+}
+
+.dark .theme-toggle-label {
+  color: #d1d5db;
 }
 @media (max-width: 600px) {
   .mode-btn {

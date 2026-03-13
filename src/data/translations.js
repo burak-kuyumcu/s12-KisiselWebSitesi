@@ -1,6 +1,6 @@
     const translations = {
   tr: {
-    switchLanguage: "ENGLISH'E GEÇ",
+    switchLanguage: "İNGİLİZCE'YE GEÇ",
     heroGreeting: 'Merhaba! 👋',
     heroName: 'Ben Burak.',
     heroTitle: 'Ben bir full-stack geliştiriciyim.',

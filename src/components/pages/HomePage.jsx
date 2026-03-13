@@ -19,8 +19,9 @@ export default function HomePage({ darkMode, toggleTheme }) {
 
       <div className="page-content">
         <div className="top-controls">
-          <LanguageSwitch />
           <ModeSwitch darkMode={darkMode} toggleTheme={toggleTheme} />
+          <span className="controls-divider">|</span>
+          <LanguageSwitch />
         </div>
 
         <div className="api-status">

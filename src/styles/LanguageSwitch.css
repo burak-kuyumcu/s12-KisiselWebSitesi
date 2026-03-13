@@ -1,19 +1,17 @@
-.language-btn {
+.language-link {
   background: transparent;
   border: none;
   cursor: pointer;
+  padding: 0;
+  font-size: 12px;
   font-weight: 700;
-  font-size: 13px;
-  color: inherit;
-  padding: 8px 10px;
-  border-radius: 999px;
-}
-.language-btn:hover {
-  background: rgba(0, 0, 0, 0.06);
+  letter-spacing: 0.6px;
+  color: #ff2f87;
+  text-transform: uppercase;
 }
 
-.dark .language-btn {
-  color: #f9fafb;
+.dark .language-link {
+  color: #ff5ca5;
 }
 
 .dark .language-btn:hover {
