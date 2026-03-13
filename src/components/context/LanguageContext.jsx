@@ -1,23 +1,48 @@
-import { createContext, useContext, useMemo, useState } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import translations from '../../data/translations';
+import { sendLanguageSelection } from '../../services/api';
 
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState('en');
+  const [apiStatus, setApiStatus] = useState('idle');
 
   const toggleLanguage = () => {
     setLanguage((prev) => (prev === 'en' ? 'tr' : 'en'));
   };
+
+  useEffect(() => {
+    async function postLanguageSelection() {
+      try {
+        setApiStatus('loading');
+
+        const data = await sendLanguageSelection({
+          selectedLanguage: language,
+          project: 'portfolio',
+          createdAt: new Date().toISOString(),
+        });
+
+        console.log('MockAPI response:', data);
+        setApiStatus('success');
+      } catch (error) {
+        console.error('MockAPI error:', error);
+        setApiStatus('error');
+      }
+    }
+
+    postLanguageSelection();
+  }, [language]);
 
   const value = useMemo(() => {
     return {
       language,
       setLanguage,
       toggleLanguage,
-      t: translations[language]
+      t: translations[language],
+      apiStatus,
     };
-  }, [language]);
+  }, [language, apiStatus]);
 
   return (
     <LanguageContext.Provider value={value}>

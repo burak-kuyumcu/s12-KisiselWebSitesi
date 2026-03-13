@@ -47,6 +47,15 @@
   gap: 18px;
 }
 
+.api-status {
+  position: fixed;
+  top: 70px;
+  right: 24px;
+  z-index: 99;
+  font-size: 13px;
+  font-weight: 600;
+}
+
 @media (max-width: 900px) {
   .section {
     padding: 72px 0;
