@@ -1,10 +1,10 @@
 {
-  "birthDate": "16.03.2001",
-  "city": "Konya",
-  "education": "Hacettepe Üniv.",
+  "birthDate": "24.03.1996",
+  "city": "Ankara",
+  "education": "Hacettepe Ünv.  Biyoloji Lisans, 2016",
   "role": "Frontend, UI",
-  "aboutTr1": "Modern, kullanıcı dostu ve ölçeklenebilir arayüzler geliştirmeyi seviyorum.",
-  "aboutTr2": "React, tasarım sistemleri ve temiz component yapıları ile çalışmayı seviyorum.",
-  "aboutEn1": "I enjoy building modern, user-friendly and scalable interfaces.",
-  "aboutEn2": "I enjoy working with React, design systems and clean component structures."
+  "aboutTr1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+  "aboutTr2": "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+  "aboutEn1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+  "aboutEn2": "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
 }

@@ -1,24 +1,24 @@
 [
   {
     "id": 1,
-    "titleTr": "Kullanıcı ve Post Yönetim Paneli",
-    "titleEn": "User and Post Management Panel",
-    "descriptionTr": "React ve axios kullanarak geliştirdiğim kullanıcı ve post yönetim paneli. Backend bağlantısı, kullanıcı listeleme, post işlemleri ve temel CRUD akışlarını içerir.",
-    "descriptionEn": "A user and post management panel built with React and axios. Includes backend connection status, user listing, post operations and basic CRUD flows.",
-    "tags": ["react", "axios", "crud", "api"],
+    "titleTr": "Rastgele Şakalar",
+    "titleEn": "Random Jokes",
+    "descriptionTr": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+    "descriptionEn": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.  ",
+    "tags": ["react", "vercel", "axios", "router"],
     "github": "https://github.com/burak-kuyumcu/React-Nodejs-Project",
     "demo": "https://react-nodejs-project-nine.vercel.app/",
-    "image": "/images/project-users-posts.png"
+    "image": "/images/app-example2.png"
   },
   {
     "id": 2,
-    "titleTr": "Teknolojik Yemekler",
-    "titleEn": "Tech Food Landing Page",
-    "descriptionTr": "Responsive yapıda geliştirdiğim yemek temalı landing page projesi. Modern arayüz, kategori alanları ve kampanya kartları içerir.",
-    "descriptionEn": "A responsive food-themed landing page project with a modern interface, category sections and campaign cards.",
-    "tags": ["react", "css", "responsive", "ui"],
+    "titleTr": "Sıkıldın mı?",
+    "titleEn": "Are you bored?",
+    "descriptionTr": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+    "descriptionEn": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+    "tags": ["react", "redux", "axios", "router", "vercel"],
     "github": "https://github.com/burak-kuyumcu/fsweb-s8-challenge-pizza",
     "demo": "https://fsweb-s8-challenge-pizza-vert.vercel.app/",
-    "image": "/images/project-tech-food.png"
+    "image": "/images/app-example3.png"
   }
 ]

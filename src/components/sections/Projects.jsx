@@ -6,7 +6,11 @@ export default function Projects() {
   const { t, language } = useLanguage();
 
   return (
-    <section className="projects section" id="projects" aria-labelledby="projects-title">
+    <section
+      className="projects section"
+      id="projects"
+      aria-labelledby="projects-title"
+    >
       <div className="container">
         <h2 className="section-title" id="projects-title">
           {t.projectsTitle}
@@ -28,10 +32,11 @@ export default function Projects() {
               >
                 <div>
                   <h3 id={`project-title-${project.id}`}>{title}</h3>
-
                   <p>{description}</p>
-
-                  <ul className="project-tags" aria-label={`${title} technologies`}>
+                  <ul
+                    className="project-tags"
+                    aria-label={`${title} technologies`}
+                  >
                     {project.tags?.map((tag, index) => (
                       <li key={index} className="tag">
                         {tag}
@@ -39,7 +44,10 @@ export default function Projects() {
                     ))}
                   </ul>
 
-                  <nav className="project-links" aria-label={`${title} project links`}>
+                  <nav
+                    className="project-links"
+                    aria-label={`${title} project links`}
+                  >
                     <a
                       href={project.github}
                       target="_blank"
@@ -63,8 +71,15 @@ export default function Projects() {
                 <div className="project-image-box">
                   <img
                     src={project.image}
-                    alt={title}
-                    className="project-image"
+                    alt={`${title} screenshot`}
+                    className={`project-screen project-screen-${project.id}`}
+                  />
+
+                  <img
+                    src="/images/laptop-frame.png"
+                    alt=""
+                    aria-hidden="true"
+                    className="project-laptop"
                   />
                 </div>
               </article>
