@@ -1,8 +1,44 @@
 [
-  { "id": 1, "name": "JAVASCRIPT", "icon": "JS" },
-  { "id": 2, "name": "REACT", "icon": "⚛" },
-  { "id": 3, "name": "REDUX", "icon": "◔" },
-  { "id": 4, "name": "NODE", "icon": "N" },
-  { "id": 5, "name": "VS CODE", "icon": "</>" },
-  { "id": 6, "name": "FIGMA", "icon": "F" }
+  {
+    "id": 1,
+    "name": "JAVASCRIPT",
+    "image": "/images/JS.jpg",
+    "bgColor": "#ead94c",
+    "slug": "javascript"
+  },
+  {
+    "id": 2,
+    "name": "REACT",
+    "image": "/images/React.png",
+    "bgColor": "#2d2d2d",
+    "slug": "react"
+  },
+  {
+    "id": 3,
+    "name": "REDUX",
+    "image": "/images/Redux.png",
+    "bgColor": "#7b52c5",
+    "slug": "redux"
+  },
+  {
+    "id": 4,
+    "name": "NODE",
+    "image": "/images/Node.jpg",
+    "bgColor": "#000000",
+    "slug": "node"
+  },
+  {
+    "id": 5,
+    "name": "VS CODE",
+    "image": "/images/VSCode.png",
+    "bgColor": "#2494d4",
+    "slug": "vscode"
+  },
+  {
+    "id": 6,
+    "name": "FIGMA",
+    "image": "/images/Figma.jpg",
+    "bgColor": "#000000",
+    "slug": "figma"
+  }
 ]

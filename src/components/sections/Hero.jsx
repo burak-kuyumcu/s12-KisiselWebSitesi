@@ -19,10 +19,10 @@ export default function Hero() {
 
           <div className="hero-socials">
             <a href={hero.linkedin} target="_blank" rel="noreferrer">
-              {t.linkedin}
+              LinkedIn
             </a>
             <a href={hero.github} target="_blank" rel="noreferrer">
-              {t.github}
+              Github
             </a>
           </div>
 

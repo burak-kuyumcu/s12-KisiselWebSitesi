@@ -8,11 +8,13 @@ export default function Footer() {
   return (
     <footer className="footer section">
       <div className="container footer-grid">
-        <h2>
-          {t.footerTitle1}
-          <br />
-          {t.footerTitle2}
-        </h2>
+        <div className="footer-text">
+          <h2>
+            {t.footerTitle1}
+            <br />
+            {t.footerTitle2}
+          </h2>
+        </div>
 
         <div className="footer-links">
           <a href={footer.github} target="_blank" rel="noreferrer">

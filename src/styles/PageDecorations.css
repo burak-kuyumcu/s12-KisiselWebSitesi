@@ -5,52 +5,52 @@
 }
 
 .top-circle {
-  width: 70px;
-  height: 70px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   background: #d6d6d6;
-  top: -5px;
-  left: 320px;
+  top: -6px;
+  left: 290px;
 }
 
 .middle-ring {
-  width: 60px;
-  height: 60px;
-  border: 10px solid #d6d6d6;
+  width: 54px;
+  height: 54px;
+  border: 9px solid #d6d6d6;
   border-radius: 50%;
-  top: 620px;
-  right: 180px;
+  top: 560px;
+  right: 150px;
 }
 
 .right-pill {
-  width: 80px;
-  height: 36px;
+  width: 72px;
+  height: 34px;
   border-radius: 18px 0 0 18px;
   background: #ff2f87;
   right: 0;
-  top: 360px;
+  top: 330px;
 }
 
 .left-pill {
-  width: 80px;
-  height: 36px;
+  width: 72px;
+  height: 34px;
   border-radius: 0 18px 18px 0;
   background: #444;
   left: 0;
-  top: 1180px;
+  top: 980px;
 }
 
 .right-ring {
-  width: 70px;
-  height: 70px;
-  border: 10px solid #ff2f87;
+  width: 64px;
+  height: 64px;
+  border: 9px solid #ff2f87;
   border-radius: 50%;
-  right: -20px;
-  bottom: 180px;
+  right: -18px;
+  bottom: 120px;
 }
 
 .dark .top-circle {
-  background: #3c3c3c;
+  background: #3b3b3b;
 }
 
 .dark .middle-ring {
@@ -58,5 +58,58 @@
 }
 
 .dark .left-pill {
-  background: #666;
+  background: #555;
+}
+
+.dark .right-ring {
+  border-color: #ff2f87;
+}
+
+@media (max-width: 900px) {
+  .top-circle {
+    left: 40px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .middle-ring {
+    right: 40px;
+    top: 520px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .right-pill {
+    width: 60px;
+    height: 28px;
+    top: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-circle {
+    width: 44px;
+    height: 44px;
+    left: 20px;
+    top: 6px;
+  }
+
+  .middle-ring {
+    width: 42px;
+    height: 42px;
+    border-width: 8px;
+    right: 18px;
+    top: 430px;
+  }
+
+  .right-pill {
+    width: 44px;
+    height: 22px;
+    top: 260px;
+  }
+
+  .left-pill,
+  .right-ring {
+    display: none;
+  }
 }

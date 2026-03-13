@@ -13,28 +13,30 @@ export default function Projects() {
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-card">
-              <h3>{language === 'tr' ? project.titleTr : project.titleEn}</h3>
-              <p>
-                {language === 'tr'
-                  ? project.descriptionTr
-                  : project.descriptionEn}
-              </p>
+              <div>
+                <h3>{language === 'tr' ? project.titleTr : project.titleEn}</h3>
+                <p>
+                  {language === 'tr'
+                    ? project.descriptionTr
+                    : project.descriptionEn}
+                </p>
 
-              <div className="project-tags">
-                {project.tags?.map((tag, index) => (
-                  <span key={index} className="tag">
-                    {tag}
-                  </span>
-                ))}
-              </div>
+                <div className="project-tags">
+                  {project.tags?.map((tag, index) => (
+                    <span key={index} className="tag">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
 
-              <div className="project-links">
-                <a href={project.github} target="_blank" rel="noreferrer">
-                  {t.github}
-                </a>
-                <a href={project.demo} target="_blank" rel="noreferrer">
-                  Demo →
-                </a>
+                <div className="project-links">
+                  <a href={project.github} target="_blank" rel="noreferrer">
+                    {t.github}
+                  </a>
+                  <a href={project.demo} target="_blank" rel="noreferrer">
+                    Demo →
+                  </a>
+                </div>
               </div>
 
               <div className="project-image-box">
