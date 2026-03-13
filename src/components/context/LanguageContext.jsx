@@ -10,7 +10,6 @@ export function LanguageProvider({ children }) {
   });
 
   const [apiStatus, setApiStatus] = useState('idle');
-
   const toggleLanguage = () => {
     setLanguage((prev) => (prev === 'en' ? 'tr' : 'en'));
   };
@@ -24,16 +23,24 @@ export function LanguageProvider({ children }) {
       try {
         setApiStatus('loading');
 
-        const data = await sendLanguageSelection({
+        const payload = {
           selectedLanguage: language,
           project: 'portfolio',
           createdAt: new Date().toISOString(),
+        };
+
+        const data = await sendLanguageSelection(payload);
+        console.log('Dil tercihi MockAPI’ye gönderildi:', {
+          payload,
+          response: data,
         });
 
-        console.log('MockAPI response:', data);
         setApiStatus('success');
       } catch (error) {
-        console.error('MockAPI error:', error);
+        console.error(
+          'MockAPI error:',
+          error.response?.data || error.message
+        );
         setApiStatus('error');
       }
     }

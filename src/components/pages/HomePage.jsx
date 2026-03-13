@@ -11,8 +11,7 @@ import { useLanguage } from '../context/LanguageContext';
 import '../../styles/HomePage.css';
 
 export default function HomePage({ darkMode, toggleTheme }) {
-  const { apiStatus } = useLanguage();
-
+ 
   return (
     <div className={darkMode ? 'home-page dark' : 'home-page light'}>
       <PageDecorations />
@@ -25,13 +24,6 @@ export default function HomePage({ darkMode, toggleTheme }) {
           </span>
           <LanguageSwitch />
         </header>
-
-        <div className="api-status" aria-live="polite">
-          {apiStatus === 'loading' && <span>Dil bilgisi gönderiliyor...</span>}
-          {apiStatus === 'success' && <span>API bağlantısı başarılı</span>}
-          {apiStatus === 'error' && <span>API bağlantı hatası</span>}
-        </div>
-
         <main>
           <Hero />
           <Skills />
