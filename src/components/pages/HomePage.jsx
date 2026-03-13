@@ -18,22 +18,27 @@ export default function HomePage({ darkMode, toggleTheme }) {
       <PageDecorations />
 
       <div className="page-content">
-        <div className="top-controls">
+        <header className="top-controls" aria-label="Theme and language controls">
           <ModeSwitch darkMode={darkMode} toggleTheme={toggleTheme} />
-          <span className="controls-divider">|</span>
+          <span className="controls-divider" aria-hidden="true">
+            |
+          </span>
           <LanguageSwitch />
-        </div>
+        </header>
 
-        <div className="api-status">
+        <div className="api-status" aria-live="polite">
           {apiStatus === 'loading' && <span>Dil bilgisi gönderiliyor...</span>}
           {apiStatus === 'success' && <span>API bağlantısı başarılı</span>}
           {apiStatus === 'error' && <span>API bağlantı hatası</span>}
         </div>
 
-        <Hero />
-        <Skills />
-        <Profile />
-        <Projects />
+        <main>
+          <Hero />
+          <Skills />
+          <Profile />
+          <Projects />
+        </main>
+
         <Footer />
       </div>
     </div>

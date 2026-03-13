@@ -5,12 +5,19 @@ import { sendLanguageSelection } from '../../services/api';
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState(() => {
+    return localStorage.getItem('language') || 'en';
+  });
+
   const [apiStatus, setApiStatus] = useState('idle');
 
   const toggleLanguage = () => {
     setLanguage((prev) => (prev === 'en' ? 'tr' : 'en'));
   };
+
+  useEffect(() => {
+    localStorage.setItem('language', language);
+  }, [language]);
 
   useEffect(() => {
     async function postLanguageSelection() {

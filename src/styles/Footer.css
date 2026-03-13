@@ -1,13 +1,13 @@
 .footer.section {
-  padding-top: 34px;
-  padding-bottom: 34px;
+  padding-top: 18px;
+  padding-bottom: 26px;
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  gap: 34px;
+  gap: 22px;
   max-width: 920px;
   margin: 0 auto;
 }
@@ -15,24 +15,25 @@
 .footer-text {
   position: relative;
   text-align: center;
+  transform: translateY(-6px);
 }
 
 .footer-text h2 {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.35;
-  font-weight: 600;
+  font-weight: 500;
   color: #111827;
 }
 
 .footer-text::after {
   content: '';
   position: absolute;
-  width: 92px;
-  height: 10px;
+  width: 74px;
+  height: 8px;
   background: #8ec5ff;
   left: 50%;
-  transform: translateX(-50%);
-  bottom: 18px;
+  transform: translateX(-35%);
+  bottom: 16px;
   border-radius: 999px;
   z-index: -1;
 }
@@ -40,15 +41,16 @@
 .footer-links {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   align-items: flex-start;
+  transform: translateY(-2px);
 }
 
 .footer-links a {
   text-decoration: none;
   color: #2563eb;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.2;
 }
 

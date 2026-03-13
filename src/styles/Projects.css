@@ -1,6 +1,6 @@
 .projects.section {
   padding-top: 36px;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
 }
 
 .projects .section-title {
@@ -50,22 +50,25 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 22px;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
 }
 
 .tag {
-  background: #f7f7f7;
+  display: inline-block;
+  background: #f1f1f1;
+  padding: 4px 10px;
   border-radius: 999px;
-  padding: 6px 12px;
-  font-size: 11px;
-  line-height: 1;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .project-links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 22px;
+  margin-top: 12px;
+  font-weight: 600;
 }
 
 .project-links a {
@@ -108,7 +111,8 @@
 }
 
 .dark .tag {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255,255,255,0.15);
+  color: #f9fafb;
 }
 
 @media (max-width: 900px) {

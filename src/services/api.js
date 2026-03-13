@@ -8,6 +8,11 @@ const api = axios.create({
 });
 
 export async function sendLanguageSelection(payload) {
-  const response = await api.post('/languageLogs', payload);
-  return response.data;
+  try {
+    const response = await api.post('/languageLogs', payload);
+    return response.data;
+  } catch (error) {
+    console.error('sendLanguageSelection error:', error);
+    throw error;
+  }
 }

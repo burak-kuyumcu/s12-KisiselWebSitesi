@@ -8,7 +8,7 @@ function App() {
   });
 
   useEffect(() => {
-    localStorage.setItem('darkMode', darkMode);
+    localStorage.setItem('darkMode', String(darkMode));
   }, [darkMode]);
 
   function toggleTheme() {
