@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import HomePage from './components/pages/HomePage';
+import { LanguageProvider } from './components/context/LanguageContext';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -14,7 +15,11 @@ function App() {
     setDarkMode((prev) => !prev);
   }
 
-  return <HomePage darkMode={darkMode} toggleTheme={toggleTheme} />;
+  return (
+    <LanguageProvider>
+      <HomePage darkMode={darkMode} toggleTheme={toggleTheme} />
+    </LanguageProvider>
+  );
 }
 
 export default App;

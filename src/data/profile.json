@@ -3,6 +3,8 @@
   "city": "Ankara",
   "education": "Hacettepe Üniv.",
   "role": "Frontend, UI",
-  "about1": "Modern, kullanıcı dostu ve ölçeklenebilir arayüzler geliştirmeyi seviyorum.",
-  "about2": "React, tasarım sistemleri ve temiz component yapıları ile çalışmayı seviyorum."
+  "aboutTr1": "Modern, kullanıcı dostu ve ölçeklenebilir arayüzler geliştirmeyi seviyorum.",
+  "aboutTr2": "React, tasarım sistemleri ve temiz component yapıları ile çalışmayı seviyorum.",
+  "aboutEn1": "I enjoy building modern, user-friendly and scalable interfaces.",
+  "aboutEn2": "I enjoy working with React, design systems and clean component structures."
 }

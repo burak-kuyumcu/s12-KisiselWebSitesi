@@ -1,0 +1,23 @@
+.language-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  color: #111827;
+  padding: 10px 14px;
+  border-radius: 999px;
+  transition: 0.2s ease;
+}
+
+.language-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.dark .language-btn {
+  color: #f9fafb;
+}
+
+.dark .language-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}

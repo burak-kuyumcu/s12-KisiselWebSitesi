@@ -37,6 +37,16 @@
   color: #f9fafb;
 }
 
+.top-controls {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
 @media (max-width: 900px) {
   .section {
     padding: 72px 0;

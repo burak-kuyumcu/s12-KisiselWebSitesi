@@ -1,8 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Personal Website",
-    "description": "Kendi kişisel web sitemi React ile geliştirdim.",
+    "titleTr": "Kişisel Web Sitesi",
+    "titleEn": "Personal Website",
+    "descriptionTr": "Kendi kişisel web sitemi React ile geliştirdim.",
+    "descriptionEn": "I developed my personal website with React.",
     "tags": ["react", "css", "json", "responsive"],
     "github": "https://github.com",
     "demo": "https://example.com",
@@ -10,8 +12,10 @@
   },
   {
     "id": 2,
-    "title": "Portfolio UI",
-    "description": "Modern arayüz ve dark mode destekli portfolyo çalışması.",
+    "titleTr": "Portfolyo Arayüzü",
+    "titleEn": "Portfolio UI",
+    "descriptionTr": "Modern arayüz ve dark mode destekli portfolyo çalışması.",
+    "descriptionEn": "A portfolio project with a modern interface and dark mode support.",
     "tags": ["react", "ui", "design", "vercel"],
     "github": "https://github.com",
     "demo": "https://example.com",
